@@ -1,0 +1,38 @@
+{
+    "name": "Contador App Vue",
+    "short_name": "Contador Vue",
+    "description": "Counter App Vue es una aplicacion que se desarrollo con el curso de Vue 3 Dedes Cero",
+    "background_color": "#35495e",
+    "theme_color": "#41b883",
+    "start_url": "./?umt_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-ve",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "icons": [{
+            "src": "./img/ico32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/ico64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/ico128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/ico256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/ico512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

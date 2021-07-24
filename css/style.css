@@ -1,0 +1,43 @@
+html,
+body {
+    background-color: #35495e;
+    color: #eee;
+}
+
+.app {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.count {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.btn {
+    padding: 15px 3rem;
+    margin: 4px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #b84141;
+}
+
+.button2 {
+    background-color: #41b883;
+}
+
+.button2:hover {
+    background-color: #227a53;
+}
+
+.button1:hover {
+    background-color: #7a2828;
+}

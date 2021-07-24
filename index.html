@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Metadata para PWA-->
+    <!--Modificar color barra de estado en ANDROID -->
+    <meta name="theme-color" content="#41b883">
+    <!-- Optimizaciones de SEO -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <!--Modificar barra de estado en IOS -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--iconos -->
+    <link rel="shortcut icon" href="./img/ico32.png" type="image/png">
+    <link rel="apple-touch-icon" href="./img/700599.png">
+    <link rel="apple-touch-startup-image" href="./img/700599.png">
+    <!--iconos -->
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <title>Contador Vue</title>
+</head>
+
+<body>
+    <div id="app" class="app">
+        <h1 class="title">{{title}}</h1>
+        <hr>
+        <h3 class="count">{{count}}</h3>
+        <hr>
+        <div class="buttons">
+            <button class="btn button1" v-on:click="modCount('dis')"><i class="fas fa-minus"></i> 1</button>
+
+            <button class="btn button2" @click="modCount"><i class="fas fa-plus "></i> 1</button>
+        </div>
+    </div>
+    <footer> </footer>
+    <script src="./load.js"></script>
+    <script src="./js/main.js "></script>
+    <script src="./js/mountApp.js "></script>
+</body>
+
+</html>
